@@ -3,11 +3,11 @@ import '../css/checkbox.css';
 
 export const Checkbox = () => {
     return (
-        <label className="container"> 
-            <span>English</span>
-            <input type="checkbox"/>
-            <span className="checkmark"></span>
-        </label>
+            <div className="container">
+                <input type="checkbox" id="checkboxInput"/>
+                <label htmlFor="checkboxInput"></label>
+                <span>Checkbox</span>
+            </div>
     );
 }
 
