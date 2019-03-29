@@ -2,10 +2,11 @@ import React from 'react';
 
 export const Checkbox = () => {
     return (
-        <div className='checkbox-li'>
-            <input type="checkbox"/>
+        <label className="container"> 
             <span>English</span>
-        </div>
+            <input type="checkbox"/>
+            <span className="checkmark"></span>
+        </label>
     );
 }
 
