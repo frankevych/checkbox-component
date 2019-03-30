@@ -7,14 +7,14 @@ input[type=checkbox] {
 
 /*
 *Main container
-*clear border before use!
 */
 .container {
-    height: 32px;
-    width: 165px;
+    height: 42px;
+    width: 125px;
     position: relative;
-    border: 0.5px solid lightgrey;
-    border-radius: 5px;
+    background-color: white;
+    top: 10px;
+    left:10px;
 }
 
 /**
@@ -23,13 +23,13 @@ input[type=checkbox] {
 .container label {
   cursor: pointer;
   position: absolute;
-  width: 15px;
-  height: 15px;
-  top: 7px;
-  left: 6px;
+  width: 16px;
+  height: 16px;
+  top: 12.5px;
+  left: 10px;
   background: white;
   border:0.5px solid lightgray;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 /*
@@ -38,12 +38,12 @@ input[type=checkbox] {
 .container label:after {
   content: '';
   position: absolute;
-  width: 9px;
-  height: 5px;
+  width: 8px;
+  height: 4px;
   background: transparent;
-  top: 2px;
-  left: 2px;
-  border: 3px solid white;
+  top: 3.5px;
+  left: 3px;
+  border: 2px solid white;
   border-top: none;
   border-right: none;
 
@@ -54,7 +54,7 @@ input[type=checkbox] {
 * Create the checkbox state for the tick
 */
 .container input[type=checkbox]:checked + label {
-  background-color: #62C0F6;
+  background-color: #397be5;
   border-color: transparent;
 }
 
@@ -63,6 +63,7 @@ input[type=checkbox] {
 */
 .container span {
   position: relative;
-  left: 10px;
-  top: 3px;
+  left: 18px;
+  top: 9px;
+  font-weight: 500;
 }
